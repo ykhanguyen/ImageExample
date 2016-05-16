@@ -3,7 +3,7 @@ import metafunctionality.Module
 import metafunctionality.ModuleOutput
 
 
-class FifthExampleController {
+class ImageExampleController {
 
     def start() {
         String inputID = Module.findByModuleId(params.id).inputID
