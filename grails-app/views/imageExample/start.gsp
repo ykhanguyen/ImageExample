@@ -11,7 +11,7 @@
                   labels="${rc}"
                   values="${rc}">
         <p>${it.radio} ${it.label} </p>
-	<img src="../images/kirby.png" />
+	<img src="${resource(dir: 'images', file: 'kirby.png')}" />
     </g:radioGroup>
 
     <g:actionSubmit value="submit" />
