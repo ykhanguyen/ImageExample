@@ -2,7 +2,7 @@ package imageexample
 
 import grails.plugins.*
 
-class ImageExample/GrailsPlugin extends Plugin {
+class ImageExampleGrailsPlugin extends Plugin {
 
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "3.0.11 > *"
