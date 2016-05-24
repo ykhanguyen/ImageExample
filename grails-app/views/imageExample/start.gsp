@@ -11,7 +11,7 @@
                   labels="${rc}"
                   values="${rc}">
         <p>${it.radio} ${it.label} </p>
-	<img src="${resource(dir: 'images', file: 'kirby.png')}" />
+	<img src="https://upload.wikimedia.org/wikipedia/en/2/22/Kirby_Wii.png" />
     </g:radioGroup>
 
     <g:actionSubmit value="submit" />
