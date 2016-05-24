@@ -10,8 +10,9 @@
     <g:radioGroup name="candidates"
                   labels="${rc}"
                   values="${rc}">
-        <p>${it.radio} ${it.label} </p>
-	<img src="https://upload.wikimedia.org/wikipedia/en/2/22/Kirby_Wii.png" />
+        <p>${it.radio} 
+	<img src="http://176.32.230.49/ykhanguyen.com/${it.label}.png" height="50" width="50" />
+	</p>
     </g:radioGroup>
 
     <g:actionSubmit value="submit" />
